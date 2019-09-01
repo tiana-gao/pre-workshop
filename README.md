@@ -1,2 +1,2 @@
 # pre-workshop
- pre-workshop for Berbard's class
+ pre-workshop for Bernard's class
