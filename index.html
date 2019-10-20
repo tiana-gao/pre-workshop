@@ -3,6 +3,7 @@
 <head>
   <title>My first styled page</title>
   <link rel="stylesheet" href="style.css">
+  <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -30,6 +31,22 @@ what yet.
 <!-- Sign and date the page, it's only polite! -->
 <address>Made 5 April 2004<br>
   by myself.</address>
+
+<br>
+<div id="puzzle">
+  <h1>The answer is:</h1>
+</div>
+<br>
+<form name="inputform">
+  Enter x:<input name = "x"><br>
+  Enter y:<input name = "y"><br>
+</form>
+<button onclick="show_topic()">Click Me</button>
+<script>
+  myjs_box=document.getElementById("puzzle");
+   myjs_box.color="green";
+   myjs_box.style.background="yellow";
+</script>
 
 </body>
 </html>
